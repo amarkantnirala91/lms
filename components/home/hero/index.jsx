@@ -7,10 +7,10 @@ const Hero = () => {
       <div className='grid md:grid-cols-2 md:w-[85%] gap-5'>
         <div className='p-3 px-20'>
          <p className="text-[#525FE1] text-lg font-bold tracking-wider mb-4">BETTER LEARNING FUTURE WITH US</p>
-         <h1 className='text-7xl font-bold mb-9 leading-[95px] text-[#231F40]'>
+         <h1 className='text-6xl font-bold mb-7 leading-[80px] text-[#231F40]'>
           Education Is About Academic Excellence
          </h1>
-         <p className='text-[#858285] text-[20px] font-semibold tracking-wider mb-8'>
+         <p className='text-[#858285] text-[20px] font-semibold tracking-wider mb-7'>
          Empower yourself with the knowledge and skills gained through online education and best instructors.
          </p>
          <button className='text-white py-4 text-xl font-bold rounded-md w-fit px-4 flex items-center gap-2 bg-[#525fe1]'>
@@ -18,11 +18,11 @@ const Hero = () => {
          </button>
         </div>
         <div className='relative flex flex-col justify-end items-center'>
-            <div className='relative h-[500px] w-[500px] top-28'>
+            <div className='relative h-[450px] w-[450px] top-28'>
             <Image src="/images/image-01.png" layout='fill' objectFit='cover' alt='shape1' />
             </div>
             
-            <Image src="/images/image-02.png" width={300} height={10} alt='shape1' className='absolute top-20 -right-10' />
+            <Image src="/images/image-02.png" width={200} height={10} alt='shape1' className='absolute top-20 right-20' />
             
         </div>
       </div>
