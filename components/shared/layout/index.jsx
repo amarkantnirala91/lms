@@ -57,7 +57,7 @@ const Layout = ({children ,title="" ,description=""})=>{
     <>
       <Meta title={title} description={description} />
       <section >
-        <div className="shadow-lg sticky top-0">
+        <div className="shadow-lg sticky bg-white z-50 top-0">
          <nav className="py-2 container mx-auto flex justify-between items-center px-4">
           <Image src="/images/logo.png" width={120} height={50} alt="logo" className="hover:scale-110 duration-700 cursor-pointer" onClick={()=>(router.push("/"))}/>
            <ul className="flex gap-8 max-md:hidden">
