@@ -101,7 +101,7 @@ const Layout = ({children ,title="" ,description=""})=>{
             {children}
          </div>
 {/*footer */}
-<footer className='bg-[#231f40] p-12'>
+        <footer className='bg-[#231f40] p-12'>
             <div className="container w-[85%] py-10 mx-auto grid md:grid-cols-4 md:gap-x-6 gap-y-5 md:gap-y-0 ">
                 <div className="col-span-1 flex flex-col gap-10 ">
                     <Image src={"/images/logo.png"} alt='logo' width={160} height={200}/>
@@ -183,7 +183,7 @@ const Layout = ({children ,title="" ,description=""})=>{
                     </div>
                 </div>
             </div>
-        </footer>
+        </footer>
 
       </section>
     </>
